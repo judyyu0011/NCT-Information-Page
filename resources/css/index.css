@@ -1,0 +1,58 @@
+.banner {
+    background-color: chartreuse;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Odibee Sans';
+    color: black;
+}
+
+.sub {
+    background-color: black;
+    text-align: center;
+}
+
+.headshot {
+    width: 100px;
+    margin-left: 100px;
+    margin-right: 50px;
+    border-radius: 5px;
+}
+
+.large-image {
+    width: 700px;
+    border-radius: 10px;
+}
+
+body {
+    font-family: verdana;
+    background-color: black;
+    color: white;
+}
+
+#dream {
+    color: hotpink;
+    font-size: large;
+    font-weight: 800;
+}
+
+.group-name {
+    color: goldenrod;
+    font-size: 20px;
+    font-weight: 800;
+} 
+
+.members {
+    text-align: left;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

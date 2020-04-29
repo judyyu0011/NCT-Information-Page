@@ -1,3 +1,10 @@
+body {
+    background-color: black;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .banner {
     background-color: chartreuse;
     text-align: center;
@@ -6,10 +13,81 @@
     color: black;
 }
 
-.sub {
-    background-color: black;
+
+#side {
+    float: right;
+    width: 23%;
+    color: white;
+    background-color: palevioletred;
+}
+
+    #side > h4 {
+        margin-left: 10px;
+    }
+
+.list-item {
+    margin-right: 10px;
+}
+
+#release-date {
+    font-weight: bold;
+}
+
+.intro-pic {
+    float: left;
+    text-align: center;
+    width: 75%;
+    margin-bottom: 60px;
+}
+
+
+.intro-vid {
+    margin-top: 30px;
+    clear:both;
+    text-align: center
+}
+.sub-units {
+    margin-top: 60px;
     text-align: center;
 }
+
+/* .sub-units > h2 {
+    float: left;
+    padding: 80px;
+    margin: 20px;
+    width: 300px;
+    color: white;
+} */
+
+.sub-units > h2 > a {
+    float: left;
+    padding: 80px;
+    margin: 20px;
+    width: 300px;
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+}
+
+
+
+#onetwoseven {
+    background-color: gold;
+}
+
+#dream {
+    background-color: pink;
+}
+
+#wayv {
+    background-color: lightblue;
+}
+
+#u {
+    background-color: cornflowerblue;
+}
+
+
 
 .headshot {
     width: 100px;
@@ -18,21 +96,14 @@
     border-radius: 5px;
 }
 
-.large-image {
-    width: 700px;
-    border-radius: 10px;
+#opening-image {
+    width:100%;
 }
 
 body {
     font-family: verdana;
     background-color: black;
     color: white;
-}
-
-#dream {
-    color: hotpink;
-    font-size: large;
-    font-weight: 800;
 }
 
 .group-name {
@@ -56,3 +127,12 @@ body {
     display: table;
     clear: both;
   }
+
+footer {
+    clear: both;
+    background-color: gainsboro;
+    color:black;
+}
+    footer > p {
+        margin: 5px;
+    }

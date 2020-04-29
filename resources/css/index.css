@@ -69,24 +69,43 @@ body {
     font-size: larger;
 }
 
+/* .sub-units > h2 > a:hover {
+    color: rgba(126, 17, 74, 0.961);
+} */
+
 
 
 #onetwoseven {
     background-color: gold;
 }
 
+#onetwoseven:hover {
+    background-color: rgba(255, 225, 52, 0.995);
+}
+
 #dream {
-    background-color: pink;
+    background-color: rgb(254, 178, 190);
+}
+
+#dream:hover {
+    background-color: rgb(255, 206, 214);
 }
 
 #wayv {
-    background-color: lightblue;
+    background-color: rgb(151, 212, 232);
+}
+
+#wayv:hover {
+    background-color: rgb(189, 221, 232);
 }
 
 #u {
     background-color: cornflowerblue;
 }
 
+#u:hover {
+    background-color: rgb(134, 169, 233);
+}
 
 
 .headshot {
@@ -130,6 +149,9 @@ body {
 
 footer {
     clear: both;
+    float: right;
+    width: 1000px;
+    margin-top: 60px;
     background-color: gainsboro;
     color:black;
 }

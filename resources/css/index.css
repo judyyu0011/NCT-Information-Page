@@ -5,14 +5,104 @@ body {
     margin-right: auto;
 }
 
-.banner {
-    background-color: chartreuse;
-    text-align: center;
-    font-size: 40px;
-    font-family: 'Odibee Sans';
-    color: black;
+
+.mainheader {
+    background-color: rgb(170, 255, 0);
+    margin-bottom: 50px;
 }
 
+.headertext {
+    text-align: center;
+    font-size: 100px;
+    font-weight: 900;
+    font-family: 'Odibee Sans';
+    color: black;
+    padding: 10px;
+    padding-left: 320px;
+}
+
+#searchbox {
+    float:right;
+    margin-top: 70px;
+    margin-right: 10px;
+    padding: 5;
+    position: right;
+    width: 150px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(170, 255, 0);
+    margin-bottom: 10px;
+  }
+  
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    font-weight: bold;
+    padding: 14px 20px;
+    background-color: inherit;
+    font-family: inherit; /*  for vertical align on mobile phones */
+    margin: 0; /* for vertical align on mobile phones */
+  }
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(218, 255, 143);
+}
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(218, 255, 143);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown*/
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /*Add a grey background color to dropdown links on hover*/
+  .dropdown-content a:hover {
+    background-color: white;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  } 
+
+.intro-pic {
+    float: left;
+    text-align: center;
+    width: 75%;
+    margin-bottom: 60px;
+}
 
 #side {
     float: right;
@@ -33,17 +123,10 @@ body {
     font-weight: bold;
 }
 
-.intro-pic {
-    float: left;
-    text-align: center;
-    width: 75%;
-    margin-bottom: 60px;
-}
-
 
 .intro-vid {
-    margin-top: 30px;
     clear:both;
+    margin-top: 30px;
     text-align: center
 }
 .sub-units {

@@ -11,6 +11,7 @@ body {
 
 .mainheader {
     /* background-color: rgb(170, 255, 0); */
+    padding-top: 20px;
     background: radial-gradient(rgb(175, 255, 14), yellow);
     margin-bottom: 50px;
 }
@@ -23,6 +24,7 @@ body {
     color: black;
     padding: 10px;
     padding-left: 170px;
+    text-shadow: 5px 5px 5px white;
 }
 
 #searchbox {
@@ -48,12 +50,13 @@ body {
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
+    text-shadow: 2px 2px 2px white;
 }
 
 .icon {
     float:right;
     margin-right:15px;
-    margin-top: 7px;
+    margin-top: 10px;
 }
 
 .dropdown .dropbtn {
@@ -62,6 +65,7 @@ body {
     outline: none;
     color: black;
     font-weight: bold;
+    text-shadow: 2px 2px 2px white;
     padding: 14px 20px;
     background-color: inherit;
     font-family: inherit; /*  for vertical align on mobile phones */
@@ -142,7 +146,16 @@ body {
 .intro-vid {
     clear:both;
     margin-top: 30px;
-    text-align: center
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.description {
+    text-align: left;
+    width:700px;
+    column-count: 2;
+    
+    margin:0 auto;
 }
 .sub-units {
     margin-top: 60px;
@@ -171,7 +184,9 @@ body {
     color: rgba(126, 17, 74, 0.961);
 } */
 
-
+.subunitname:hover {
+    text-shadow: 0 0 10px black;
+}
 
 #onetwoseven {
     background-color: gold;

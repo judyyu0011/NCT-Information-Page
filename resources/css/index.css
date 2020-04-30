@@ -10,7 +10,8 @@ body {
 
 
 .mainheader {
-    background-color: rgb(170, 255, 0);
+    /* background-color: rgb(170, 255, 0); */
+    background: radial-gradient(rgb(175, 255, 14), yellow);
     margin-bottom: 50px;
 }
 

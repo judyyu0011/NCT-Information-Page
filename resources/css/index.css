@@ -3,6 +3,9 @@ body {
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    font-family: verdana;
+    color: white;
+    text-align: center;
 }
 
 
@@ -18,7 +21,7 @@ body {
     font-family: 'Odibee Sans';
     color: black;
     padding: 10px;
-    padding-left: 320px;
+    padding-left: 170px;
 }
 
 #searchbox {
@@ -48,7 +51,7 @@ body {
 
 .icon {
     float:right;
-    margin-right:10px;
+    margin-right:15px;
     margin-top: 7px;
 }
 
@@ -110,7 +113,12 @@ body {
     margin-bottom: 60px;
 }
 
+#opening-image {
+    width:100%;
+}
+
 #side {
+    text-align: left;
     float: right;
     width: 23%;
     color: white;
@@ -205,44 +213,26 @@ body {
 }
 
 
-.headshot {
-    width: 100px;
-    margin-left: 100px;
-    margin-right: 50px;
-    border-radius: 5px;
-}
 
-#opening-image {
-    width:100%;
-}
 
-body {
-    font-family: verdana;
-    background-color: black;
-    color: white;
-}
 
-.group-name {
-    color: goldenrod;
-    font-size: 20px;
-    font-weight: 800;
-} 
 
-.members {
+
+/* .members {
     text-align: left;
 }
 
 .column {
     float: left;
     width: 33.33%;
-}
+} */
 
 /* Clear floats after the columns */
-.row:after {
+/* .row:after {
     content: "";
     display: table;
     clear: both;
-  }
+  } */
 
 footer {
     clear: both;
@@ -251,7 +241,45 @@ footer {
     margin-top: 60px;
     background-color: gainsboro;
     color:black;
+    text-align: right;
 }
     footer > p {
         margin: 5px;
     }
+
+/* sub-unit pages */
+
+/* .debut {
+    margin-bottom: 100px;
+} */
+
+.group-intro {
+    margin-bottom: 100px;
+}
+
+.group-name {
+    font-size: 100px;
+    font-weight: bolder;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+.headshot {
+    width: 200px;
+}
+
+.name {
+    margin-top: 10px;
+    font-size: 20px;
+}

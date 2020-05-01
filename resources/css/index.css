@@ -154,8 +154,11 @@ body {
     text-align: left;
     width:700px;
     column-count: 2;
-    
     margin:0 auto;
+}
+
+.description > .link {
+    color: lightcyan;
 }
 .sub-units {
     margin-top: 60px;

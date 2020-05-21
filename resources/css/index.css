@@ -20,15 +20,18 @@ body {
     text-align: center;
     font-size: 100px;
     font-weight: 900;
-    font-family: 'Odibee Sans';
     color: black;
     padding: 10px;
     padding-left: 170px;
     text-shadow: 5px 5px 5px white;
 }
 
+#headerfont {
+    font-family: 'Odibee Sans';
+}
+
 #searchbox {
-    float:right;
+    float:right;c
     margin-top: 70px;
     margin-right: 10px;
     padding: 5;
@@ -130,7 +133,9 @@ body {
     background-color: palevioletred;
 }
 
-    #side > h4 {
+    #side > h1 {
+        font-size: 30px;
+        font-weight: bold;
         margin-left: 10px;
     }
 
@@ -148,6 +153,10 @@ body {
     margin-top: 30px;
     text-align: center;
     margin-bottom: 30px;
+}
+
+.intro-vid > h1 {
+    font-size: 40px;
 }
 
 .description {
@@ -173,6 +182,9 @@ body {
     color: white;
 } */
 
+.sub-units > h1 {
+    font-size: 50px;
+}
 .sub-units > h2 > a {
     float: left;
     padding: 80px;
@@ -239,8 +251,8 @@ body {
 
 /* .members {
     text-align: left;
-}
-
+} */
+/*
 .column {
     float: left;
     width: 33.33%;
@@ -279,8 +291,12 @@ footer {
 .group-name {
     font-size: 100px;
     font-weight: bolder;
+    margin-bottom: 20px;
 }
 
+.members {
+    font-size: 50px;
+}
 
 .grid-container {
     display: grid;
@@ -292,7 +308,7 @@ footer {
     padding: 20px;
     font-size: 30px;
     text-align: center;
-  }
+}
 
 .headshot {
     width: 200px;
@@ -302,3 +318,39 @@ footer {
     margin-top: 10px;
     font-size: 20px;
 }
+
+#yangyang {
+    margin-top: 10px;
+}
+
+form {
+    display: inline-block;
+}
+
+fieldset {
+    width: 500px;
+}
+
+.textlabel {
+    font-size: 14px;
+    display:block;
+    width: 250px;
+    float: left;
+}
+
+textarea {
+    margin-left: 250px;
+    margin-top: -15px;
+}
+
+
+.form-elements {
+    text-align: left;
+    
+}
+
+.submit {
+    text-align: center;
+}
+
+

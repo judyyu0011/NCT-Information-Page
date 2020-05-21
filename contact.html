@@ -11,7 +11,7 @@
 <body>
 
     <header class="mainheader">
-        <span class="headertext">Intro to NCT</span>
+        <span class="headertext" id="headerfont">Intro to NCT</span>
         <span><input type="search" id="searchbox" placeholder="Search"/></span>
 
         <nav class="navbar">
@@ -40,3 +40,33 @@
             </a>
         </nav>
     </header>
+
+    <h4>Send me any questions or suggestions you may have!</h4>
+    <form method="post">
+        <fieldset>
+            <div class="form-elements">
+                <p>
+                    <label class="textlabel" for="nameInput">Your name:</label>
+                    <input type="text" id="nameInput" name="name" required="required" placeholder="Enter your name">
+                </p>
+                <p>
+                    <label class="textlabel" for="emailInput">Your Email Address:</label>
+                    <input type="email" id="emailInput" name="email" required="required" placeholder="Enter your email address">
+                </p>
+                <p>
+                    <label class="textlabel" for="questionInput">Questions or Suggestions:</label>
+                    <textarea rows="5" cols="60" name = "question" id="questionInput" required="required" placeholder="Enter here any questions or suggestions you may have!"></textarea>
+                </p>
+                <div class="submit">
+                    <input class="submitbtn" type="submit" value="Submit">
+                </div>
+            </div>
+        </fieldset>
+    </form>
+
+    <footer>
+        <p>Created by Judy Yu</p>
+    </footer>
+
+</body>
+</html>
